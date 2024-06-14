@@ -21,4 +21,5 @@ export const authConfig = {
       return true;
     },
   },
+  secret: process.env.NEXTAUTH_SECRET, // ここにシークレットを追加
 } satisfies NextAuthConfig;
